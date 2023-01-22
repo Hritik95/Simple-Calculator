@@ -3,11 +3,15 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: whitesmoke;
 }
 
 .main{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     width: 450px;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: 5px solid;
 }
 
 .heading{
@@ -16,3 +20,30 @@ body{
     justify-content: center;
     
 }
+
+.btn{
+    width: 82px;
+    margin: 10px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+#input{
+    width: 286px;
+    
+}
+
+#btn-0{
+    width: 186px;
+}
+
+#btn-equal{
+    width: 300px;
+    margin-bottom: 30px;
+}
+
